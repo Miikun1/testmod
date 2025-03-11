@@ -15,7 +15,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(MOD_ID, id), item);
     }
     public static void registerItems() {
-        RegistryAutoAdd(MOD_ID, TUTRIAL_TOOL);
+        RegistryAutoAdd("tutrialtool", TUTRIAL_TOOL);
     }
     public static void registerInventry(){
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> content.add(TUTRIAL_TOOL));

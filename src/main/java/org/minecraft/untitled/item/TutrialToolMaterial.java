@@ -1,5 +1,6 @@
 package org.minecraft.untitled.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -31,6 +32,6 @@ public class TutrialToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.TUTRIAL_TOOL);
+        return Ingredient.ofItems(Items.ICE);
     }
 }
